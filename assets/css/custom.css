@@ -1,0 +1,67 @@
+.about-section{
+    position: relative;
+}
+
+.about-section>.about-content{
+    position: absolute;
+    top: 30%;
+}
+
+h2.title-name b{
+    color: #ff2b06 !important;
+}
+
+#banner1 .heroslider-content{
+    padding-bottom: 0;
+}
+
+#banner1{
+    background-position: center;
+    min-height: 100vh !important;
+}
+
+#banner2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 100vh !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    #banner2{
+        background-image: url("../images/heroslider/gozunuac-banner.jpg") !important;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #banner2{
+        background-image: url("../images/heroslider/gozunuac-mobil.jpg") !important;
+        background-size: auto 100%;
+    }
+}
+
+#sp h5{
+    font-size: 13px;
+}
+
+#ticket{
+    background: #ff2b06;
+}
+
+#ticket:hover{
+    background: white;
+}
+
+#ticket a{
+    color:white;
+}
+
+#ticket a:hover{
+    color: #ff2b06;
+}
+
+#destekci{
+    font-size: 25px;
+}
